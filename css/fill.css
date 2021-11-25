@@ -5,12 +5,19 @@ form {
 
 .one {
   min-height: 100vh;
-  margin-top : 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #2B6CB0;
 }
 
-table th {
-  color: #2B6CB0;
+table th , table td {
+  color: white;
+  text-align: center;
+}
+
+table td 
+{
+  opacity: 0.4;
 }
 input[type=text], input[type=file] {
   width: 100%;
